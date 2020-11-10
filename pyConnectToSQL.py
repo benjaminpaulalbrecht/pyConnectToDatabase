@@ -10,7 +10,7 @@ import pyodbc
 
 
 server ='WS3040532\WORBENCH' # for a named instance 
-database = 'ComOps' 
+database = 'test' 
 username = 'sa'
 password = 'sa' 
 cnxn = pyodbc.connect('DRIVER={ODBC Driver 17 for SQL Server};SERVER='+server+';DATABASE=+database+';UID='+username=+';PWD='"password') #this may not be correct... 
