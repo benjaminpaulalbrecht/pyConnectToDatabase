@@ -9,7 +9,7 @@ import pyodbc
 
 
 
-server ='WS3040532\WORBENCH' # for a named instance 
+server = 'Localhost\localDB' # for a named instance 
 database = 'test' 
 username = 'sa'
 password = 'sa' 
